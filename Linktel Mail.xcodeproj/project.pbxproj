@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EFB7D0805BAB0D77A26CC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B08A81CBAB5E7D3E6DA10AD8 /* libPods.a */; };
+		C3625E7E1BE21CCD00D16237 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E731BE21CCD00D16237 /* AboutTableViewController.swift */; };
+		C3625E7F1BE21CCD00D16237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E741BE21CCD00D16237 /* AppDelegate.swift */; };
+		C3625E801BE21CCD00D16237 /* MailBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E751BE21CCD00D16237 /* MailBox.swift */; };
+		C3625E811BE21CCD00D16237 /* MailListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E761BE21CCD00D16237 /* MailListTableViewCell.swift */; };
+		C3625E821BE21CCD00D16237 /* MailListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E771BE21CCD00D16237 /* MailListTableViewController.swift */; };
+		C3625E831BE21CCD00D16237 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E781BE21CCD00D16237 /* Menu.swift */; };
+		C3625E841BE21CCD00D16237 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E791BE21CCD00D16237 /* MenuTableViewCell.swift */; };
+		C3625E851BE21CCD00D16237 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E7A1BE21CCD00D16237 /* MenuTableViewController.swift */; };
+		C3625E861BE21CCD00D16237 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E7B1BE21CCD00D16237 /* Setting.swift */; };
+		C3625E871BE21CCD00D16237 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E7C1BE21CCD00D16237 /* SettingTableViewCell.swift */; };
+		C3625E881BE21CCD00D16237 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3625E7D1BE21CCD00D16237 /* SettingTableViewController.swift */; };
+		C3625E8A1BE21D9100D16237 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3625E891BE21D9100D16237 /* Social.framework */; };
+		C3625E8C1BE21D9E00D16237 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3625E8B1BE21D9E00D16237 /* CFNetwork.framework */; };
+		C3625E8E1BE21DB300D16237 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3625E8D1BE21DB300D16237 /* MessageUI.framework */; };
+		C3625E901BE21E2D00D16237 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3625E8F1BE21E2D00D16237 /* Security.framework */; };
+		C3EEEE1F1BE217E3005A51D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EEEE1D1BE217E3005A51D2 /* Main.storyboard */; };
+		C3EEEE221BE217E3005A51D2 /* linktelMail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3EEEE201BE217E3005A51D2 /* linktelMail.xcdatamodeld */; };
+		C3EEEE241BE217E3005A51D2 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EEEE231BE217E3005A51D2 /* images.xcassets */; };
+		C3EEEE271BE217E3005A51D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EEEE251BE217E3005A51D2 /* LaunchScreen.storyboard */; };
+		C3EEEE321BE217E3005A51D2 /* linktelMailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EEEE311BE217E3005A51D2 /* linktelMailTests.swift */; };
+		C3EEEE3D1BE217E3005A51D2 /* linktelMailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EEEE3C1BE217E3005A51D2 /* linktelMailUITests.swift */; };
+		F218B15F1C100B5200A858ED /* MailSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218B15E1C100B5200A858ED /* MailSendViewController.swift */; };
+		F2618AF61C04316400594DB1 /* MailScript.js in Resources */ = {isa = PBXBuildFile; fileRef = F2618AF51C04316400594DB1 /* MailScript.js */; };
+		F27B1F1F1BF5825600D97525 /* MailContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27B1F1E1BF5825600D97525 /* MailContentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3EEEE2E1BE217E3005A51D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EEEE0E1BE217E2005A51D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EEEE151BE217E2005A51D2;
+			remoteInfo = linktelMail;
+		};
+		C3EEEE391BE217E3005A51D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3EEEE0E1BE217E2005A51D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3EEEE151BE217E2005A51D2;
+			remoteInfo = linktelMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A62BF3543AF480ED5CD47AA3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B08A81CBAB5E7D3E6DA10AD8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA97F9AFF2725546DE390DBA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C3625E731BE21CCD00D16237 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		C3625E741BE21CCD00D16237 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3625E751BE21CCD00D16237 /* MailBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailBox.swift; sourceTree = "<group>"; };
+		C3625E761BE21CCD00D16237 /* MailListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailListTableViewCell.swift; sourceTree = "<group>"; };
+		C3625E771BE21CCD00D16237 /* MailListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailListTableViewController.swift; sourceTree = "<group>"; };
+		C3625E781BE21CCD00D16237 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C3625E791BE21CCD00D16237 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C3625E7A1BE21CCD00D16237 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C3625E7B1BE21CCD00D16237 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		C3625E7C1BE21CCD00D16237 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		C3625E7D1BE21CCD00D16237 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		C3625E891BE21D9100D16237 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C3625E8B1BE21D9E00D16237 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C3625E8D1BE21DB300D16237 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C3625E8F1BE21E2D00D16237 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C3625E911BE21ECD00D16237 /* linktelMail-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "linktelMail-Bridging-Header.h"; sourceTree = "<group>"; };
+		C3EEEE161BE217E2005A51D2 /* Linktel Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linktel Mail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EEEE1E1BE217E3005A51D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3EEEE211BE217E3005A51D2 /* linktelMail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = linktelMail.xcdatamodel; sourceTree = "<group>"; };
+		C3EEEE231BE217E3005A51D2 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		C3EEEE261BE217E3005A51D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3EEEE281BE217E3005A51D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3EEEE2D1BE217E3005A51D2 /* Linktel Mail.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linktel Mail.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EEEE311BE217E3005A51D2 /* linktelMailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linktelMailTests.swift; sourceTree = "<group>"; };
+		C3EEEE331BE217E3005A51D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3EEEE381BE217E3005A51D2 /* Linktel Mail.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linktel Mail.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3EEEE3C1BE217E3005A51D2 /* linktelMailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linktelMailUITests.swift; sourceTree = "<group>"; };
+		C3EEEE3E1BE217E3005A51D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F218B15E1C100B5200A858ED /* MailSendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailSendViewController.swift; sourceTree = "<group>"; };
+		F2618AF51C04316400594DB1 /* MailScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = MailScript.js; sourceTree = "<group>"; };
+		F27B1F1E1BF5825600D97525 /* MailContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailContentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3EEEE131BE217E2005A51D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3625E901BE21E2D00D16237 /* Security.framework in Frameworks */,
+				C3625E8E1BE21DB300D16237 /* MessageUI.framework in Frameworks */,
+				C3625E8C1BE21D9E00D16237 /* CFNetwork.framework in Frameworks */,
+				C3625E8A1BE21D9100D16237 /* Social.framework in Frameworks */,
+				37EFB7D0805BAB0D77A26CC3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EEEE2A1BE217E3005A51D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EEEE351BE217E3005A51D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06642D855A8D4196410164F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3625E8F1BE21E2D00D16237 /* Security.framework */,
+				C3625E8D1BE21DB300D16237 /* MessageUI.framework */,
+				C3625E8B1BE21D9E00D16237 /* CFNetwork.framework */,
+				C3625E891BE21D9100D16237 /* Social.framework */,
+				B08A81CBAB5E7D3E6DA10AD8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6606379661910F9AB9AC87C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A62BF3543AF480ED5CD47AA3 /* Pods.debug.xcconfig */,
+				BA97F9AFF2725546DE390DBA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3625E921BE2235B00D16237 /* mailList */ = {
+			isa = PBXGroup;
+			children = (
+				C3625E771BE21CCD00D16237 /* MailListTableViewController.swift */,
+				C3625E761BE21CCD00D16237 /* MailListTableViewCell.swift */,
+			);
+			name = mailList;
+			sourceTree = "<group>";
+		};
+		C3625E931BE223B400D16237 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				C3625E7D1BE21CCD00D16237 /* SettingTableViewController.swift */,
+				C3625E7C1BE21CCD00D16237 /* SettingTableViewCell.swift */,
+				C3625E7B1BE21CCD00D16237 /* Setting.swift */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		C3625E941BE223DE00D16237 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				C3625E7A1BE21CCD00D16237 /* MenuTableViewController.swift */,
+				C3625E791BE21CCD00D16237 /* MenuTableViewCell.swift */,
+				C3625E781BE21CCD00D16237 /* Menu.swift */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		C3EEEE0D1BE217E2005A51D2 = {
+			isa = PBXGroup;
+			children = (
+				C3625E911BE21ECD00D16237 /* linktelMail-Bridging-Header.h */,
+				C3EEEE181BE217E2005A51D2 /* linktelMail */,
+				C3EEEE301BE217E3005A51D2 /* linktelMailTests */,
+				C3EEEE3B1BE217E3005A51D2 /* linktelMailUITests */,
+				C3EEEE171BE217E2005A51D2 /* Products */,
+				A6606379661910F9AB9AC87C /* Pods */,
+				06642D855A8D4196410164F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3EEEE171BE217E2005A51D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3EEEE161BE217E2005A51D2 /* Linktel Mail.app */,
+				C3EEEE2D1BE217E3005A51D2 /* Linktel Mail.xctest */,
+				C3EEEE381BE217E3005A51D2 /* Linktel Mail.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3EEEE181BE217E2005A51D2 /* linktelMail */ = {
+			isa = PBXGroup;
+			children = (
+				C3625E921BE2235B00D16237 /* mailList */,
+				C3625E931BE223B400D16237 /* setting */,
+				C3625E941BE223DE00D16237 /* menu */,
+				C3625E751BE21CCD00D16237 /* MailBox.swift */,
+				F27B1F1E1BF5825600D97525 /* MailContentViewController.swift */,
+				F218B15E1C100B5200A858ED /* MailSendViewController.swift */,
+				F2618AF51C04316400594DB1 /* MailScript.js */,
+				C3625E731BE21CCD00D16237 /* AboutTableViewController.swift */,
+				C3625E741BE21CCD00D16237 /* AppDelegate.swift */,
+				C3EEEE1D1BE217E3005A51D2 /* Main.storyboard */,
+				C3EEEE231BE217E3005A51D2 /* images.xcassets */,
+				C3EEEE251BE217E3005A51D2 /* LaunchScreen.storyboard */,
+				C3EEEE281BE217E3005A51D2 /* Info.plist */,
+				C3EEEE201BE217E3005A51D2 /* linktelMail.xcdatamodeld */,
+			);
+			path = linktelMail;
+			sourceTree = "<group>";
+		};
+		C3EEEE301BE217E3005A51D2 /* linktelMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3EEEE311BE217E3005A51D2 /* linktelMailTests.swift */,
+				C3EEEE331BE217E3005A51D2 /* Info.plist */,
+			);
+			path = linktelMailTests;
+			sourceTree = "<group>";
+		};
+		C3EEEE3B1BE217E3005A51D2 /* linktelMailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3EEEE3C1BE217E3005A51D2 /* linktelMailUITests.swift */,
+				C3EEEE3E1BE217E3005A51D2 /* Info.plist */,
+			);
+			path = linktelMailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3EEEE151BE217E2005A51D2 /* Linktel Mail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EEEE411BE217E3005A51D2 /* Build configuration list for PBXNativeTarget "Linktel Mail" */;
+			buildPhases = (
+				3616CCDD2946CC6E9D67DAA5 /* Check Pods Manifest.lock */,
+				C3EEEE121BE217E2005A51D2 /* Sources */,
+				C3EEEE131BE217E2005A51D2 /* Frameworks */,
+				C3EEEE141BE217E2005A51D2 /* Resources */,
+				FDB15DE93F3602E389547BC9 /* Embed Pods Frameworks */,
+				FAB81FC8A9B8155F6E30D9E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Linktel Mail";
+			productName = linktelMail;
+			productReference = C3EEEE161BE217E2005A51D2 /* Linktel Mail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3EEEE2C1BE217E3005A51D2 /* Linktel MailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EEEE441BE217E3005A51D2 /* Build configuration list for PBXNativeTarget "Linktel MailTests" */;
+			buildPhases = (
+				C3EEEE291BE217E3005A51D2 /* Sources */,
+				C3EEEE2A1BE217E3005A51D2 /* Frameworks */,
+				C3EEEE2B1BE217E3005A51D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3EEEE2F1BE217E3005A51D2 /* PBXTargetDependency */,
+			);
+			name = "Linktel MailTests";
+			productName = linktelMailTests;
+			productReference = C3EEEE2D1BE217E3005A51D2 /* Linktel Mail.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3EEEE371BE217E3005A51D2 /* Linktel MailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EEEE471BE217E3005A51D2 /* Build configuration list for PBXNativeTarget "Linktel MailUITests" */;
+			buildPhases = (
+				C3EEEE341BE217E3005A51D2 /* Sources */,
+				C3EEEE351BE217E3005A51D2 /* Frameworks */,
+				C3EEEE361BE217E3005A51D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3EEEE3A1BE217E3005A51D2 /* PBXTargetDependency */,
+			);
+			name = "Linktel MailUITests";
+			productName = linktelMailUITests;
+			productReference = C3EEEE381BE217E3005A51D2 /* Linktel Mail.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3EEEE0E1BE217E2005A51D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = administrator;
+				TargetAttributes = {
+					C3EEEE151BE217E2005A51D2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C3EEEE2C1BE217E3005A51D2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C3EEEE151BE217E2005A51D2;
+					};
+					C3EEEE371BE217E3005A51D2 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C3EEEE151BE217E2005A51D2;
+					};
+				};
+			};
+			buildConfigurationList = C3EEEE111BE217E2005A51D2 /* Build configuration list for PBXProject "Linktel Mail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3EEEE0D1BE217E2005A51D2;
+			productRefGroup = C3EEEE171BE217E2005A51D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3EEEE151BE217E2005A51D2 /* Linktel Mail */,
+				C3EEEE2C1BE217E3005A51D2 /* Linktel MailTests */,
+				C3EEEE371BE217E3005A51D2 /* Linktel MailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3EEEE141BE217E2005A51D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2618AF61C04316400594DB1 /* MailScript.js in Resources */,
+				C3EEEE271BE217E3005A51D2 /* LaunchScreen.storyboard in Resources */,
+				C3EEEE241BE217E3005A51D2 /* images.xcassets in Resources */,
+				C3EEEE1F1BE217E3005A51D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EEEE2B1BE217E3005A51D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EEEE361BE217E3005A51D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3616CCDD2946CC6E9D67DAA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB81FC8A9B8155F6E30D9E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB15DE93F3602E389547BC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3EEEE121BE217E2005A51D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3625E7F1BE21CCD00D16237 /* AppDelegate.swift in Sources */,
+				C3625E881BE21CCD00D16237 /* SettingTableViewController.swift in Sources */,
+				F27B1F1F1BF5825600D97525 /* MailContentViewController.swift in Sources */,
+				F218B15F1C100B5200A858ED /* MailSendViewController.swift in Sources */,
+				C3EEEE221BE217E3005A51D2 /* linktelMail.xcdatamodeld in Sources */,
+				C3625E851BE21CCD00D16237 /* MenuTableViewController.swift in Sources */,
+				C3625E831BE21CCD00D16237 /* Menu.swift in Sources */,
+				C3625E801BE21CCD00D16237 /* MailBox.swift in Sources */,
+				C3625E821BE21CCD00D16237 /* MailListTableViewController.swift in Sources */,
+				C3625E871BE21CCD00D16237 /* SettingTableViewCell.swift in Sources */,
+				C3625E861BE21CCD00D16237 /* Setting.swift in Sources */,
+				C3625E841BE21CCD00D16237 /* MenuTableViewCell.swift in Sources */,
+				C3625E811BE21CCD00D16237 /* MailListTableViewCell.swift in Sources */,
+				C3625E7E1BE21CCD00D16237 /* AboutTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EEEE291BE217E3005A51D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EEEE321BE217E3005A51D2 /* linktelMailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3EEEE341BE217E3005A51D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EEEE3D1BE217E3005A51D2 /* linktelMailUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3EEEE2F1BE217E3005A51D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3EEEE151BE217E2005A51D2 /* Linktel Mail */;
+			targetProxy = C3EEEE2E1BE217E3005A51D2 /* PBXContainerItemProxy */;
+		};
+		C3EEEE3A1BE217E3005A51D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3EEEE151BE217E2005A51D2 /* Linktel Mail */;
+			targetProxy = C3EEEE391BE217E3005A51D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3EEEE1D1BE217E3005A51D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EEEE1E1BE217E3005A51D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3EEEE251BE217E3005A51D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EEEE261BE217E3005A51D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3EEEE3F1BE217E3005A51D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3EEEE401BE217E3005A51D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3EEEE421BE217E3005A51D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62BF3543AF480ED5CD47AA3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = linktelMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linktel.linktelMail;
+				PRODUCT_NAME = "Linktel Mail";
+				SWIFT_OBJC_BRIDGING_HEADER = "linktelMail-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		C3EEEE431BE217E3005A51D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA97F9AFF2725546DE390DBA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = linktelMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linktel.linktelMail;
+				PRODUCT_NAME = "Linktel Mail";
+				SWIFT_OBJC_BRIDGING_HEADER = "linktelMail-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C3EEEE451BE217E3005A51D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = linktelMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linktel.linktelMailTests;
+				PRODUCT_NAME = "Linktel Mail";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linktel Mail.app/Linktel Mail";
+			};
+			name = Debug;
+		};
+		C3EEEE461BE217E3005A51D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = linktelMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linktel.linktelMailTests;
+				PRODUCT_NAME = "Linktel Mail";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linktel Mail.app/Linktel Mail";
+			};
+			name = Release;
+		};
+		C3EEEE481BE217E3005A51D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = linktelMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linktel.linktelMailUITests;
+				PRODUCT_NAME = "Linktel Mail";
+				TEST_TARGET_NAME = linktelMail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3EEEE491BE217E3005A51D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = linktelMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.linktel.linktelMailUITests;
+				PRODUCT_NAME = "Linktel Mail";
+				TEST_TARGET_NAME = linktelMail;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3EEEE111BE217E2005A51D2 /* Build configuration list for PBXProject "Linktel Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EEEE3F1BE217E3005A51D2 /* Debug */,
+				C3EEEE401BE217E3005A51D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EEEE411BE217E3005A51D2 /* Build configuration list for PBXNativeTarget "Linktel Mail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EEEE421BE217E3005A51D2 /* Debug */,
+				C3EEEE431BE217E3005A51D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EEEE441BE217E3005A51D2 /* Build configuration list for PBXNativeTarget "Linktel MailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EEEE451BE217E3005A51D2 /* Debug */,
+				C3EEEE461BE217E3005A51D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EEEE471BE217E3005A51D2 /* Build configuration list for PBXNativeTarget "Linktel MailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EEEE481BE217E3005A51D2 /* Debug */,
+				C3EEEE491BE217E3005A51D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3EEEE201BE217E3005A51D2 /* linktelMail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3EEEE211BE217E3005A51D2 /* linktelMail.xcdatamodel */,
+			);
+			currentVersion = C3EEEE211BE217E3005A51D2 /* linktelMail.xcdatamodel */;
+			path = linktelMail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3EEEE0E1BE217E2005A51D2 /* Project object */;
+}
